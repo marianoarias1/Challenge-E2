@@ -36,4 +36,83 @@
     font-family: 'Secular One', sans-serif;
     color: #F6F8F9;
     font-weight: 10;
+    font-size: 0.8rem;
+}
+
+.contenedor{
+    width: 40%;
+    height: 65%;
+    background-color: #1E1F23;
+    border-radius: 20px;
+    margin-left: 40px;
+    box-shadow: 7px 7px 9px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 9px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 9px -1px rgba(0,0,0,0.75);
+}
+
+#nombre{
+    font-family: 'Bebas Neue', cursive;
+    color: #F6F8F9;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+ .parrafo{
+    width: 100%;
+    display: flex;
+}
+
+ .intro{
+    width: 70%;
+    margin-left: 30px;
+    color: #F6F8F9
+}
+
+.contenedor_img{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    width: 300px;
+    height: 390px;
+    object-fit: cover;
+
+}
+
+.ubi{
+    width: 85%;
+    display:flex;
+    position: absolute;
+    align-items: flex-end;
+    justify-content: right;
+    
+}
+
+.mapa{
+    position: absolute;
+    margin-bottom: 130px;
+    width:400px;
+    height: 400px;
+
+}
+
+.parrafos_2{
+    width: 100%;
+    display: inline-block;
+}
+
+.sobre_mi{
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+p{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
 }
