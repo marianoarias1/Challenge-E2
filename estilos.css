@@ -6,7 +6,7 @@
 .header{
     display: table;
     background-color: #1E1F23;
-    width: 100vmax;
+    width: 95rem;
     height: 64px;
 }
 
@@ -41,8 +41,8 @@
     }
 
 .contenedor{
-    width: 25rem;
-    height: 30.9rem;
+    width: 90rem;
+    height: 50rem;
     background-color: #1E1F23;
     border-radius: 20px;
     margin-left: 40px;
@@ -60,61 +60,79 @@
     margin-left: 40px;
 }
  .parrafo{
-    width: 100%;
+    width: 70%;
     display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: right;
+    align-items: flex-end;
+    margin-left: 30px;
 }
 
  .intro{
+    text-align: justify;
+    align-items: flex-end;
     width: 70%;
-    margin-left: 30px;
     color: #F6F8F9
 }
 
-.contenedor_img{
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-img{
-    width: 300px;
-    height: 390px;
-    object-fit: cover;
-
-}
-
-.ubi{
-    width: 65rem;
-    display:flex;
-    position: absolute;
-    align-items: flex-end;
-    justify-content: right;
-    
-}
-
-.mapa{
-    position: absolute;
-    margin-bottom: 130px;
-    margin-right: 80px;
-    width:400px;
-    height: 400px;
-
-}
-
 .parrafos_2{
-    width: 60rem;
-    display: inline-block;
+    width: 70%;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: justify;
+    align-items: flex-end;
+    margin-left: 30px;
 }
 
 .sobre_mi{
-    width: 80vw;
+    text-align: justify;
+    align-items: flex-end;
+    width: 70%;
     margin-top: 30px;
-    margin-left: 5px;
 }
 
 p{
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 600;
+    color: #F6F8F9
 }
+
+#nucba{
+    color: #F6F8F9
+}
+
+.contenedor_img{
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    justify-content: left;
+    object-fit: cover;
+    width: 50%;
+
+}
+
+.arrecifes{
+    width: 300px;
+    height: 390px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.ubi{
+    width: 100%;
+    display:flex;
+    position: relative;
+    align-items:flex-end;
+    justify-content:center;
+
+}
+
+.mapa{
+    margin-top: 15%;
+    position: relative;
+    width:90%;
+    height: 300px;
+    border-radius: 20px;
+}
+
