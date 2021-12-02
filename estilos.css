@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+body{
+    background: rgb(126,52,176);
+    background: linear-gradient(180deg, rgba(126,52,176,1) 0%, rgba(70,121,195,1) 54%, rgba(67,215,189,1) 90%);
+}
+
 .header{
     display: table;
     background-color: #1E1F23;
