@@ -1,25 +1,15 @@
 <html>
 
 <head>
-    <title>Challenge</title>
+    <title>Landing Page</title>
     <link rel="stylesheet" href="estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar">
-            <img src="./logo/logo.png" alt="" class="logotipo">
-
             <div class="links">
                 <a href="https://www.instagram.com/mariano_arias1/" class="link" target="_blank">INSTAGRAM</a>
                 <a href="https://m.facebook.com/mariano.arias.3956" class="link" target="_blank">FACEBOOK</a>
@@ -30,37 +20,94 @@
     </header>
 
     <div class="contenedor">
-            <h1 id="nombre">Mariano Arias</h1>
-
+        <h1 id="nombre">MARIANO ARIAS</h1>
+        <div class="contenedor_fotos">
             <div class="contenedor_img">
                 <img src="./foto/fotop.JPG" alt="" class="arrecifes">
             </div>
 
-        <div class="parrafo">
-            <p class="intro"> Mi nombre es Mariano Arias, vivo en la ciudad de Arrecifes,
-                provincia de Buenos
-                Aires.</p>
+            <div class="contenedor_parrafos">
+                <div class="parrafo">
+                    <p class="intro"> Mi nombre es Mariano Arias, vivo en la ciudad de Arrecifes,
+                        provincia de Buenos
+                        Aires.</p>
+
+                    <p class="sobre_mi"> Soy estudiante de Desarrollo Web Front End, actualmente estudiando en <a
+                            href="https://nucba.com.ar/" target="_blank" id="nucba">NUCBA</a>, un
+                        instituto de Buenos Aires en el cual aprendí las herramientas necesarias y como utilizarlas para
+                        poder diseñar
+                        páginas web desde cero.
+                    </p>
+                </div>
+            </div>
+
+            <div class="foto_dibujo">
+                <img src="./foto/foto-header.png" alt="" class="foto_animada">
+            </div>
         </div>
-        <div class="parrafos_2">
-            <p class="sobre_mi"> Soy Desarrolador Web Front End, actualmente estudiando en <a href="https://nucba.com.ar/" target="_blank" id="nucba">NUCBA</a>, un
-                instituto de Buenos Aires en el cual aprendí las herramientas necesarias y como utilizarlas para poder diseñar
-                páginas web desde cero.
-            </p>
-            <p class="sobre_mi">
-                Soy una persona puntual, me manejo mejor trabajando en gurpo o en conjunto con otra persona, me gusta ayudar a
-                los demas cuando tienen algun problema y empecé en este mundo porque me fascinó la idea de poder crear páginas a
-                mi gusto.
-            </p>
-        </div>
-        
-        <div class="ubi">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26440.960616360273!2d-60.100967499999996!3d-34.066435999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1638206343574!5m2!1ses!2sar" class="mapa" loading="lazy"></iframe>
-        </div>
-    
     </div>
 
+    <h2> MIS VENTAJAS </h2>
+    <div class="contenedor_ventajas">
 
+        <div class="contenedor_icono">
+            <img src="./foto/reloj.png" alt="" class="foto_icono">
+            <img src="./foto/megafono.png" alt="" class="foto_icono">
+            <img src="./foto/manos.png" alt="" class="foto_icono">
+        </div>
 
+        <div class="contenedor_h3">
+            <h3>PUNTUALIDAD</h3>
+
+            <h3>COMUNICACIÓN</h3>
+
+            <h3>RESPONSABILIDAD</h3>
+            <div class="iconos">
+                <p class="p-ventajas">Soy una persona puntual, cumplo con los horarios pautados.</p>
+
+                <p class="p-ventajas">Me gusta comunicar mis avances y/o dificultades tanto con mis compañeros como con
+                    mis superiores.</p>
+
+                <p class="p-ventajas">Soy responsable con mis tareas y obligaciones.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <h2 id="titulo_trabajo">¿COMO TRABAJO?</h2>
+
+    <div class="como_trabajo">
+        <div class="contenedor_numeros">
+            <p class="numeros">1</p>
+            <p class="numeros">2</p>
+            <p class="numeros">3</p>
+            <p class="numeros">4</p>
+        </div>
+    </div>
+
+    <div class="p_trabajo">
+        <p class="p_pasos">CONCEPTO</p>
+        <p class="p_pasos">ESTRUCTURA</p>
+        <p class="p_pasos">PROTOTIPOS Y TESTEO</p>
+        <p class="p_pasos">PROYECTO FINAL</p>
+    </div>
+
+    <div class="definicion">
+
+        <p class="p_definicion">En esta estapa se realiza el diseño de la página, el cliente tiene que dar indicaciones
+            de que le gusta y que no, que cambiaría y que dejaría para el proyecto final</p>
+
+        <p class="p_definicion">En esta segunda etapa se comienza a trabajar con HTML para darle la estructura a la
+            página, poner todas las caracteristicas que el cliente haya indicado que desearía tener en su web</p>
+
+        <p class="p_definicion">Esta tercera etapa se realiza para que el cliente testee y vea como va quedando su
+            pagina y, en caso de que lo desee, realizar algún cambio en algo que no le haya gustado o que quiera
+            modificar</p>
+
+        <p class="p_definicion">Y por ultimo esta etapa es la entrega del proyecto final, con todos los cambios e
+            indiciaciones que el cliente haya deseado</p>
+
+    </div>
 </body>
 
 </html>
