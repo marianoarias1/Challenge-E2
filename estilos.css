@@ -19,6 +19,8 @@ body{
     font-weight: 600;
 }
 
+
+
 #nucba{
     text-decoration: none;
     color: #282727;
@@ -41,6 +43,14 @@ body{
 
 .link{
     margin: 0.3rem 0.6rem;
+    transition: all 0.7s;
+}
+
+.link:hover {
+    background-color: #F7F7F7;
+    border-radius: 0.5rem;
+    letter-spacing: 0.15rem;
+    color: #282727;
 }
 
 .contenedor_fotos{
@@ -81,6 +91,12 @@ h1{
 .contenedor_img img{
     width: 16rem;
     border-radius: 50%;
+}
+
+.contenedor_img img:hover{
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+    width: 20rem;
 }
 
 .arrecifes{
