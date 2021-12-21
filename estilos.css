@@ -8,8 +8,8 @@
 }
 
 body{
-    background: rgb(241,152,162);
-    background: linear-gradient(0deg, rgba(241,152,162,1) 0%, rgba(116,175,244,1) 100%);
+    background: rgb(119,62,117);
+    background: linear-gradient(0deg, rgba(119,62,117,1) 0%, rgba(213,148,8,1) 100%);
     background-attachment: fixed;
 }
  a{
@@ -19,7 +19,12 @@ body{
     font-weight: 600;
 }
 
-
+.header{
+    width: 100%;
+    height: 550px;
+    background-image: url(./foto/fondo.png);
+    background-size:cover;
+}
 
 #nucba{
     text-decoration: none;
